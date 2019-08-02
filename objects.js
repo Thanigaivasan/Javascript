@@ -9,7 +9,7 @@ animal["tagline"]="I am the King of the Jungle";
 console.log(animal["tagline"]);
 
 var noises=[];
-animal["noises"]=noises;
+animal.noises=noises;
 console.log(animal);
 
 var count=0;
