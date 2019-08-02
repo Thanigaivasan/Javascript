@@ -26,3 +26,9 @@ for(var key in animal){
 }
 console.log("The number of properties in the object are "+count);
 console.log("We can't use the return statement in the loop without console.log()");
+
+// create a new object 
+
+var animalIntro={};
+animalIntro["1."]=animal["username"]+" - "+animal["tagline"];
+console.log(animalIntro);
