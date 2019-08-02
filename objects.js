@@ -24,4 +24,5 @@ for(var key in animal){
         console.log("I like to say "+animal[key]);
     }
 }
-
+console.log("The number of properties in the object are "+count);
+console.log("We can't use the return statement in the loop without console.log()");
